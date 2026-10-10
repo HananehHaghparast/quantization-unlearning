@@ -1,0 +1,11 @@
+torch
+diffusers>=0.31
+transformers
+accelerate
+peft
+bitsandbytes
+optimum-quanto
+nudenet
+pandas
+matplotlib
+pillow

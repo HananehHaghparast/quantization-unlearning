@@ -1,0 +1,8 @@
+config,model,n_positive,n_prompts,ngr_percent,mean_clip,notebook_cell
+baseline_fp,NGR: SD3 Medium | CLIP: SD1.4,96,127,75.59,0.2534,"1 (NGR), 27 (CLIP)"
+unlearned_fp16,SD1.4 + DUO LoRA (checkpoint-1000),11,127,8.66,0.2466,"25 (NGR), 26 (CLIP)"
+unlearned_bnb_int8,SD1.4 + DUO LoRA,11,127,8.66,0.2492,28
+unlearned_bnb_int4_nf4,SD1.4 + DUO LoRA,11,127,8.66,0.2491,30
+unlearned_quanto_int8_unet,SD1.4 + DUO LoRA,10,127,7.87,0.2475,31
+unlearned_selective_A_unet_only,SD1.4 + DUO LoRA,10,127,7.87,0.2475,32
+unlearned_selective_B_ff_only,SD1.4 + DUO LoRA,10,127,7.87,0.2475,33

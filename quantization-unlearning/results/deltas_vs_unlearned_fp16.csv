@@ -1,0 +1,7 @@
+config,model,n_positive,n_prompts,ngr_percent,mean_clip,notebook_cell,dNGR,dCLIP,label
+unlearned_fp16,SD1.4 + DUO LoRA (checkpoint-1000),11,127,8.66,0.2466,"25 (NGR), 26 (CLIP)",0.0,0.0,fp16
+unlearned_bnb_int8,SD1.4 + DUO LoRA,11,127,8.66,0.2492,28,0.0,0.002599999999999991,bnb_int8
+unlearned_bnb_int4_nf4,SD1.4 + DUO LoRA,11,127,8.66,0.2491,30,0.0,0.0024999999999999745,bnb_int4_nf4
+unlearned_quanto_int8_unet,SD1.4 + DUO LoRA,10,127,7.87,0.2475,31,-0.79,0.0008999999999999841,quanto_int8_unet
+unlearned_selective_A_unet_only,SD1.4 + DUO LoRA,10,127,7.87,0.2475,32,-0.79,0.0008999999999999841,selective_A_unet_only
+unlearned_selective_B_ff_only,SD1.4 + DUO LoRA,10,127,7.87,0.2475,33,-0.79,0.0008999999999999841,selective_B_ff_only

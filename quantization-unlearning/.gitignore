@@ -1,0 +1,12 @@
+.env
+*.token
+hf_token*
+checkpoints/
+outputs/
+results/images/
+DUO/
+*.safetensors
+*.bin
+*.pt
+__pycache__/
+.ipynb_checkpoints/
